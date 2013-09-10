@@ -17,12 +17,17 @@ The WebLogApp supports the most commont web server log formats.
 
 Common Log Format  ( www-clf ) 
         LogFormat "%h %l %u %t \"%r\" %>s %b" common
+
 Extended /NCSA Log Format ( www-xlf) 
         LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"" ncsa
+
 Custom log that includes the time taken to serve a page (%D) 
         LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\" %D"  custom
+
 json example
         LogFormat "timestamp:\"%t\", request: \"%r\", ...
+
+
 
 You will need to use the 'custom' format to include the time taken to serve pages in your access log. If this isn't included some of your charts may appear blank . 
 
