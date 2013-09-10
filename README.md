@@ -9,6 +9,7 @@ The WebLogApp monitors a web servers access and error logs.
  * [WeblogsApp-1.0-overrides.properties](https://www.google.com)
 
 
+Read ![How to deploy](http://logscape.github.io/deploy.html)
 
 
 ## Setting up Apache 
