@@ -3,8 +3,15 @@
 
 The WebLogApp monitors a web servers access and error logs. 
 
-## Prequisites for Apache
+## Downloads 
 
+ * [WeblogsApp-1.0.zip](https://github.com/logscape/unixapp/raw/master/dist/WeblogsApp-1.0.zip)
+ * [WeblogsApp-1.0-overrides.properties](https://www.google.com)
+
+
+
+
+## Setting up Apache 
 The WebLogApp supports the most commont web server log formats. The Apache Logformat directives look like this.
 
 	Common Log Format  ( www-clf ) 
@@ -22,16 +29,9 @@ You will need to use the 'custom' format to include the time taken to serve page
 
 IIS uses W3C log format by default, which provides the time taken metric. 
 
-	![IIS Logging Config](docs/images/iis-logging.png) 
+ ![IIS Logging Config](docs/images/iis-logging.png) 
 
 Make sure that you have W3C selected. 
-
-
-## Downloads 
-
- * [WeblogsApp-1.0.zip](https://github.com/logscape/unixapp/raw/master/dist/WeblogsApp-1.0.zip)
- * [WeblogsApp-1.0-overrides.properties](https://www.google.com)
-
 
 ## Overview
 
