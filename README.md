@@ -1,11 +1,31 @@
 :WeblogsApp-1.0
 ===========
 
-The WeblogsApps monitors disk,network and system health.
+The WebLogApp monitors a web servers access and error logs. 
 
-## Prequisites
+## Prequisites for Apache
 
-Set up your httpd.conf to use the Extended Log Format
+The WebLogApp supports the most commont web server log formats. The Apache Logformat directives look like this.
+
+	Common Log Format  ( www-clf ) 
+        LogFormat "%h %l %u %t \"%r\" %>s %b" common
+	Extended /NCSA Log Format ( www-xlf) 
+        LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"" ncsa
+	Custom log that includes the time taken to serve a page (%D) 
+        LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\" %D"  custom
+	json example
+        LogFormat "timestamp:\"%t\", request: \"%r\", ...
+
+You will need to use the 'custom' format to include the time taken to serve pages in your access log. If this isn't included some of your charts may appear blank . 
+
+## Setting up IIS 
+
+IIS uses W3C log format by default, which provides the time taken metric. 
+
+	![IIS Logging Config](docs/images/iis-logging.png) 
+
+Make sure that you have W3C selected. 
+
 
 ## Downloads 
 
