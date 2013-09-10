@@ -45,4 +45,8 @@ Make sure that you have W3C selected.
 
 
 
-## Breakdown of your traffic 
+## Breakdown of your traffic
+
+ ![](docs/images/iis-errors.png) 
+
+
