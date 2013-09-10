@@ -15,16 +15,20 @@ Read ![How to deploy](http://logscape.github.io/deploy.html)
 ## Setting up Apache 
 The WebLogApp supports the most commont web server log formats.
 
-Common Log Format  ( www-clf ) 
+ Common Log Format  ( www-clf ) 
+
         LogFormat "%h %l %u %t \"%r\" %>s %b" common
 
-Extended /NCSA Log Format ( www-xlf) 
+ Extended /NCSA Log Format ( www-xlf) 
+
         LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"" ncsa
 
-Custom log that includes the time taken to serve a page (%D) 
+ Custom log that includes the time taken to serve a page (%D) 
+
         LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\" %D"  custom
 
-json example
+ json example
+
         LogFormat "timestamp:\"%t\", request: \"%r\", ...
 
 
