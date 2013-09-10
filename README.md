@@ -13,15 +13,15 @@ Read ![How to deploy](http://logscape.github.io/deploy.html)
 
 
 ## Setting up Apache 
-The WebLogApp supports the most commont web server log formats. The Apache Logformat directives look like this.
+The WebLogApp supports the most commont web server log formats.
 
-	Common Log Format  ( www-clf ) 
+Common Log Format  ( www-clf ) 
         LogFormat "%h %l %u %t \"%r\" %>s %b" common
-	Extended /NCSA Log Format ( www-xlf) 
+Extended /NCSA Log Format ( www-xlf) 
         LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"" ncsa
-	Custom log that includes the time taken to serve a page (%D) 
+Custom log that includes the time taken to serve a page (%D) 
         LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\" %D"  custom
-	json example
+json example
         LogFormat "timestamp:\"%t\", request: \"%r\", ...
 
 You will need to use the 'custom' format to include the time taken to serve pages in your access log. If this isn't included some of your charts may appear blank . 
@@ -36,4 +36,13 @@ Make sure that you have W3C selected.
 
 ## Overview
 
+ ![](docs/images/iis-overview.png)
 
+
+## Breakdown of your Resources 
+
+ ![](docs/images/iis-resources.png) 
+
+
+
+## Breakdown of your traffic 
