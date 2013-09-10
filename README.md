@@ -39,13 +39,13 @@ Make sure that you have W3C selected.
  ![](docs/images/iis-overview.png)
 
 
-## Breakdown of your Resources 
+## Web  Resources 
 
  ![](docs/images/iis-resources.png) 
 
 
 
-## Breakdown of your traffic
+## Bad Status codes and Error Logs 
 
  ![](docs/images/iis-errors.png) 
 
