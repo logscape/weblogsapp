@@ -62,12 +62,12 @@ Nginx supports the XLF log format by default for most common installations.  To 
 
 Create a data source that points to the location of your web logs. 
 
- ![](docs/images/iis-datasources-filebrowser.png)
+ ![](docs/images/iis-datasource-filebrowser.png)
 
 You could optionaly add a file mask for the files that you are interested in e.g *access*,*error*  
 or you can pull everything in the folder. Gunzipped files are also recognized.
 
- ![](docs/images/iis-datasources.png) 
+ ![](docs/images/iis-datasource.png) 
 
  
 
