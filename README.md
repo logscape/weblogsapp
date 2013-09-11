@@ -14,7 +14,7 @@ The WebLogApp monitors your web traffic and server error logs. It provides searc
 
 
 Read [How to deploy](http://logscape.github.io/deploy.html) for basic App installation instructions
-
+You may also find  [How to import data](http://logscape.github.io/datasources.html) useful 
 
 ## Setting up Apache 
 The WebLogApp supports the most commont web server log formats.
@@ -41,7 +41,7 @@ You will need to use the 'custom' format to include the time taken to serve page
 
 ## Setting up IIS 
 
-IIS uses W3C log format by default, which provides the time taken metric. 
+IIS uses W3C log format by default. The default logs provide useful information including the time taken to serve a web page
 
  ![IIS Logging Config](docs/images/iis-logging.png) 
 
