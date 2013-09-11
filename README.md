@@ -69,6 +69,12 @@ or you can pull everything in the folder. Gunzipped files are also recognized.
 
  ![](docs/images/iis-datasource.png) 
 
+For IIS your data source may look like this, depending on where your IIS  logs are located
+
+ ![](docs/images/iis-datasource-iis.png) 
+
+
+
  
 
 
