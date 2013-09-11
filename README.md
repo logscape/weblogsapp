@@ -11,7 +11,7 @@ The WebLogApp monitors your web traffic and server error logs. It provides searc
 ## Downloads 
 
 Read [How to deploy](http://logscape.github.io/deploy.html) for basic App installation instructions  
-You may also find [How to import data](http://logscape.github.io/datasources.html) useful 
+Read [How to import data](http://logscape.github.io/datasources.html) to learn about data sources
 
  * [WeblogsApp-1.0.zip](https://github.com/logscape/unixapp/raw/master/dist/WeblogsApp-1.0.zip)
 
