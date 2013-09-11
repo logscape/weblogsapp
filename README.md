@@ -16,8 +16,9 @@ Read [How to import data](http://logscape.github.io/datasources.html) to learn a
  * [WeblogsApp-1.0.zip](https://github.com/logscape/unixapp/raw/master/dist/WeblogsApp-1.0.zip)
 
 
+# Setting up your Web Server  
 
-## Setting up Apache 
+### Setting up Apache 
 The WebLogApp supports the most commont web server log formats.
 
  Common Log Format  ( www-clf ) 
@@ -57,6 +58,7 @@ Nginx supports the XLF log format by default for most common installations.  To 
         '"$request" $status $body_bytes_sent '
         '"$http_referer" "$http_user_agent" $request_time';
 
+#Data Sources 
 
 ### Import Your Web Data
 
