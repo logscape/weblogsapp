@@ -8,7 +8,7 @@ The WebLogApp monitors your web traffic and server error logs. It provides searc
  * Nginx
  * Web Servers which support the eXtended Log Format ( XLF) . 
 
-## Downloads 
+# Downloads 
 
 Read [How to deploy](http://logscape.github.io/deploy.html) for basic App installation instructions  
 Read [How to import data](http://logscape.github.io/datasources.html) to learn about data sources
@@ -75,10 +75,11 @@ For IIS your data source may look like this, depending on where your IIS  logs a
 
 
 
- 
 
 
-## Overview
+# Overview
+
+Once you are set up you should expect to see Workspaces similiar to these reporting on your web traffic
 
  ![](docs/images/iis-overview.png)
 
