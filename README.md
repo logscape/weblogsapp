@@ -40,7 +40,7 @@ The WebLogApp supports the most commont web server log formats.
 
 You will need to use the 'custom' format to include the time taken to serve pages in your access log. If this isn't included some of your charts may appear blank . 
 
-## Setting up IIS 
+### Setting up IIS 
 
 IIS uses W3C log format by default. The default logs provide useful information including the time taken to serve a web page
 
@@ -49,7 +49,7 @@ IIS uses W3C log format by default. The default logs provide useful information 
 Make sure that you have W3C selected. 
 
 
-## Setting up Nginx 
+### Setting up Nginx 
 
 Nginx supports the XLF log format by default for most common installations.  To add the the time taken metric use the following log directive for your sites
 
@@ -58,7 +58,7 @@ Nginx supports the XLF log format by default for most common installations.  To 
         '"$http_referer" "$http_user_agent" $request_time';
 
 
-## Import Your Web Data
+### Import Your Web Data
 
 Create a data source that points to the location of your web logs. 
 
