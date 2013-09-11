@@ -1,6 +1,6 @@
 :WeblogsApp-1.0
 ===========
-
+ 
 The WebLogApp monitors a web servers access and error logs. It provides searches for access logs produced by 
 
  * Apache, 
