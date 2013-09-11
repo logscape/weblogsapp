@@ -1,12 +1,12 @@
-:WeblogsApp-1.0
+WeblogsApp-1.0
 ===========
  
 The WebLogApp monitors a web servers access and error logs. It provides searches for access logs produced by 
 
- * Apache, 
- *Microsoft IIS Web Server 
+ * Apache 
+ * Microsoft IIS Web Server 
  * Nginx
- * Web Server which support the Xtended Log Format. 
+ * Web Servers which support the eXtended Log Format ( XLF) . 
 
 ## Downloads 
 
@@ -47,6 +47,15 @@ IIS uses W3C log format by default, which provides the time taken metric.
  ![IIS Logging Config](docs/images/iis-logging.png) 
 
 Make sure that you have W3C selected. 
+
+
+## Setting up Nginx 
+
+Nginx supports the XLF log format by default for most common installations.  To add the the time taken metric use the following log directive for your sites
+
+	log_format timed_combined '$remote_addr - $remote_user [$time_local]  '
+        '"$request" $status $body_bytes_sent '
+        '"$http_referer" "$http_user_agent" $request_time';
 
 ## Overview
 
