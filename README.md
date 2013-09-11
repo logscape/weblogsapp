@@ -1,11 +1,11 @@
 :WeblogsApp-1.0
 ===========
 
-The WebLogApp monitors a web servers access and error logs. It provides searches for logs produced by 
+The WebLogApp monitors a web servers access and error logs. It provides searches for access logs produced by 
 
  * Apache, 
- * Nginx
  *Microsoft IIS Web Server 
+ * Nginx
  * Web Server which support the Xtended Log Format. 
 
 ## Downloads 
@@ -14,7 +14,7 @@ The WebLogApp monitors a web servers access and error logs. It provides searches
  * [WeblogsApp-1.0-overrides.properties](https://www.google.com)
 
 
-Read ![How to deploy](http://logscape.github.io/deploy.html)
+Read [How to deploy](http://logscape.github.io/deploy.html) for basic App installation instructions
 
 
 ## Setting up Apache 
