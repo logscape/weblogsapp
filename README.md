@@ -15,7 +15,7 @@ Read [How to import data](http://logscape.github.io/ds-add.html) to learn about 
 
 Download and deploy:  
 
- * [WeblogsApp-1.0.zip](https://github.com/logscape/weblogsapp/raw/master/dist/WebLogsApp.zip)
+ * [WeblogsApp-1.0.zip](https://github.com/logscape/weblogsapp/raw/master/dist/WebLogsApp-1.0.zip)
 
 
 #  Web Server Logs  
